@@ -85,7 +85,7 @@ nav li{
 }
 
 /* main style */
-main{
+main, footer{
     margin-top: 85px;
     width: 80%;
     margin: 0 auto;
@@ -254,4 +254,41 @@ h6{
     color: #727272;
     margin-top: 0px;
     margin-bottom: 20px;
+}
+
+/* sponsors style */
+.sponsors-section{
+    margin: 85px auto;
+    border: 1px solid blueviolet;
+}
+.sponsors-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+}
+.sponsors-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+.sponsors-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* footer style */
+
+footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
 }
