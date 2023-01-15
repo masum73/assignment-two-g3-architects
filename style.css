@@ -338,6 +338,7 @@ footer{
     .fact-container
     {
         flex-direction: column;
+        gap: 20px;
     }
     .quick-list-images{
         grid-template-columns: repeat(1,1fr);
