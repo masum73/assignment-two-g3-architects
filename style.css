@@ -232,9 +232,10 @@ h6{
     border-radius: 8px;
     text-align: center;
     padding: 0 20px;
+    transition: transform 3s ease-in 0.3s;
 }
 .fact:hover{
-    background-color: aquamarine;
+    transform: rotate(360deg);
 }
 .fact img{
     margin-top: 20px;
