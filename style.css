@@ -281,6 +281,40 @@ h6{
     align-items: center;
 }
 
+/* contact us style*/
+.contact-section{
+    margin: 85px auto;
+    border: 1px solid blueviolet;
+}
+.contact-details{
+    text-align: center;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-description{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+form{
+    text-align: center;
+}
+label{
+    font-size: 30px;
+}
+input{
+    font-size: 20px;
+    margin: 10px;
+}
+
 /* footer style */
 
 footer{
