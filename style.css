@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
 
 /* common styles */
-body{
-    margin: 0;
+body, footer{
+    margin-top: 85px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
 }
 /* header section style */
 .header-container{
@@ -85,12 +88,12 @@ nav li{
 }
 
 /* main style */
-main, footer{
+/* main, footer{
     margin-top: 85px;
     width: 80%;
     margin: 0 auto;
     border: 1px solid red;
-}
+} */
 
 /* quick list style */
 .quick-list-section{
@@ -149,7 +152,7 @@ b{
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid aqua
+    border: 1px solid aqua;
 }
 .features-container{
     border: 1px solid blue;
@@ -327,3 +330,57 @@ footer{
     line-height: 23px;
     color: #424242;
 }
+
+.hide{
+    display: none;
+}
+/* responsive query for mobile device */
+
+@media screen and (max-width: 576px) {
+    body, footer {
+        width: 100%;
+        margin: 0px auto;
+        border: 1px solid red;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0px;
+        
+    }
+    nav ul li {
+        text-align: center;
+        border-bottom: 1px solid silver;
+    }
+    .title-nav-container{
+        flex-direction: column;
+    }
+    .quick-list-container{
+        flex-direction: column;
+    }
+    .quick-list-images{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features-section{
+        flex-direction: column-reverse;
+    }
+    .features-image img {
+         width: 100%;
+    }
+    .features-experience{
+        width: 50%;
+    }
+    .fact-container{
+        flex-direction: column;
+    }
+    .sponsors-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    textarea{
+        width: 80%;
+    }
+  }
+
+  
